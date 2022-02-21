@@ -1,0 +1,26 @@
+.textInput {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border-radius: 9999px;
+  background-color: hsla(0, 0%, 100%, 0.08);
+  border: 1px solid hsla(0, 0%, 100%, 0.3);
+  caret-color: #82b1ff;
+  color: #ffffff;
+}
+
+.textInput:hover {
+  border: 1px solid #ffffff;
+}
+
+.textInput:focus {
+  border: 1px solid #82b1ff;
+}
+
+.largeInput {
+  padding: 7px 20px;
+}
+
+.mediumInput {
+  padding: 4px 20px;
+}

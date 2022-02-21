@@ -1,0 +1,57 @@
+.container {
+  width: 700px;
+  border-radius: 20px;
+  background-color: #2a3c4a;
+  padding: 40px;
+}
+
+.question {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.buttonContainer > div {
+  margin: 20px;
+}
+
+.vote > div {
+  margin: 20px;
+}
+
+.link {
+  /* width: 100%; */
+  border-radius: 99999px;
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+  flex-grow: 1;
+}
+
+.copyData {
+  display: flex;
+  width: 100%;
+}
+
+.copyData > * {
+  flex-shrink: 0;
+  margin: 10px;
+}
+
+.vote {
+  display: grid;
+  justify-content: center;
+}

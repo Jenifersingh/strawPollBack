@@ -1,0 +1,22 @@
+.authContainer {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.authText {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.auth {
+  width: 500px;
+  background-color: #2a3c4a;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.auth > div {
+  margin-bottom: 30px;
+}
